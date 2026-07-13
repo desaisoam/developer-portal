@@ -52,7 +52,7 @@ export const WorldIdTabs = (props: {
           onChange={(e) => props.onSearchChange(e.target.value)}
           label=""
           placeholder="Search actions"
-          className="w-full text-sm"
+          className="h-10 w-full py-0 text-sm"
           addOnLeft={<SearchIcon className="mx-2 text-grey-400" />}
         />
       </div>
